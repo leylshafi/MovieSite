@@ -64,55 +64,55 @@ namespace MovieSite
 
         private void pictureBox6_Click(object sender, EventArgs e)
         {
-            str1.Image = Resources.icons8_star_96;
-            str2.Image = Resources.icons8_star_96;
-            str3.Image = Resources.icons8_star_96;
-            str4.Image = Resources.icons8_star_96;
-            str5.Image = Resources.icons8_star_96;
+            string name = (sender as PictureBox).Name;
+            switch (name)
+            {
+                case "str1":
+
+                    str2.Image = Resources.icons8_star_96__1_;
+                    str3.Image = Resources.icons8_star_96__1_;
+                    str4.Image = Resources.icons8_star_96__1_;
+                    str5.Image = Resources.icons8_star_96__1_;
+
+                    str1.Image = Resources.icons8_star_96;
+                    break;
+                case "str2":
+                    str3.Image = Resources.icons8_star_96__1_;
+                    str4.Image = Resources.icons8_star_96__1_;
+                    str5.Image = Resources.icons8_star_96__1_;
+
+                    str1.Image = Resources.icons8_star_96;
+                    str2.Image = Resources.icons8_star_96;
+                    break;
+                case "str3":
+
+                    str4.Image = Resources.icons8_star_96__1_;
+                    str5.Image = Resources.icons8_star_96__1_;
+
+                    str1.Image = Resources.icons8_star_96;
+                    str2.Image = Resources.icons8_star_96;
+                    str3.Image = Resources.icons8_star_96;
+                    break;
+                case "str4":
+                    str5.Image = Resources.icons8_star_96__1_;
+                    str1.Image = Resources.icons8_star_96;
+                    str2.Image = Resources.icons8_star_96;
+                    str3.Image = Resources.icons8_star_96;
+                    str4.Image = Resources.icons8_star_96;
+                    break;
+                case "str5":
+
+                    str1.Image = Resources.icons8_star_96;
+                    str2.Image = Resources.icons8_star_96;
+                    str3.Image = Resources.icons8_star_96;
+                    str4.Image = Resources.icons8_star_96;
+                    str5.Image = Resources.icons8_star_96;
+                    break;
+                default:
+                    break;
+            }
         }
 
-        private void str4_Click(object sender, EventArgs e)
-        {
-            str5.Image = Resources.icons8_star_96__1_;
-            str1.Image = Resources.icons8_star_96;
-            str2.Image = Resources.icons8_star_96;
-            str3.Image = Resources.icons8_star_96;
-            str4.Image = Resources.icons8_star_96;
-            
-        }
-
-        private void str3_Click(object sender, EventArgs e)
-        {
-
-            str4.Image = Resources.icons8_star_96__1_;
-            str5.Image = Resources.icons8_star_96__1_;
-
-            str1.Image = Resources.icons8_star_96;
-            str2.Image = Resources.icons8_star_96;
-            str3.Image = Resources.icons8_star_96;
-        }
-
-        private void str2_Click(object sender, EventArgs e)
-        {
-
-            str3.Image = Resources.icons8_star_96__1_;
-            str4.Image = Resources.icons8_star_96__1_;
-            str5.Image = Resources.icons8_star_96__1_;
-
-            str1.Image = Resources.icons8_star_96;
-            str2.Image = Resources.icons8_star_96;
-        }
-
-        private void str1_Click(object sender, EventArgs e)
-        {
-
-            str2.Image = Resources.icons8_star_96__1_;
-            str3.Image = Resources.icons8_star_96__1_;
-            str4.Image = Resources.icons8_star_96__1_;
-            str5.Image = Resources.icons8_star_96__1_;
-
-            str1.Image = Resources.icons8_star_96;
-        }
 
         private void button4_Click(object sender, EventArgs e)
         {

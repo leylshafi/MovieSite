@@ -315,7 +315,7 @@
             this.str3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.str3.TabIndex = 0;
             this.str3.TabStop = false;
-            this.str3.Click += new System.EventHandler(this.str3_Click);
+            this.str3.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // str5
             // 
@@ -337,7 +337,7 @@
             this.str4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.str4.TabIndex = 0;
             this.str4.TabStop = false;
-            this.str4.Click += new System.EventHandler(this.str4_Click);
+            this.str4.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // str2
             // 
@@ -348,7 +348,7 @@
             this.str2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.str2.TabIndex = 0;
             this.str2.TabStop = false;
-            this.str2.Click += new System.EventHandler(this.str2_Click);
+            this.str2.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // str1
             // 
@@ -359,7 +359,7 @@
             this.str1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.str1.TabIndex = 0;
             this.str1.TabStop = false;
-            this.str1.Click += new System.EventHandler(this.str1_Click);
+            this.str1.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // MovieDetail
             // 
